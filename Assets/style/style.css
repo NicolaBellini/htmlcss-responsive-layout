@@ -166,6 +166,12 @@ header li{
 
 .free{
   height: 615px;
+  padding: 60px;
+}
+.free .container{
+  width:90%;
+  height: 100%;
+  text-align: center;
 }
 
 /* fine free */
@@ -249,6 +255,10 @@ footer{
     width: 40%;
   }
   
+  /* fine about */
+  .free .container{
+    width: 80%;
+  }
 
 }
 
@@ -352,6 +362,9 @@ footer{
     height: 520px;
     width: 30%;
   }
-
+  /* fine about */
+  .free .container{
+    width: 50%;
+  }
 }
 
