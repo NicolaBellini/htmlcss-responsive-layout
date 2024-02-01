@@ -96,6 +96,27 @@ header li{
 .strategic .col{
   height: 640px;
 }
+/* fine strategic */
+/* inizio testimonials */
+.testimonials{
+  height: 2050px;
+  padding: 60px 0 90px 0;
+}
+.testimonials .container{
+  height: 100%;
+}
+.testimonials .row{
+  height: 100%;
+}
+
+.testimonials .col{
+  height: 520px;
+  width: 100%;
+}
+.testimonials .col:nth-child(1){
+  height: 350px;
+}
+
 /* media queries */
 @media (min-width:768px){
   .jumbo .row{
@@ -129,6 +150,13 @@ header li{
   }
   .strategic .col{
     height: 100%;
+  }
+  /* fine strategic */
+  .testimonials{
+    height: 1330px;
+  }
+  .testimonials .row .col{
+    height: 310px;
   }
 }
 
@@ -168,5 +196,15 @@ header li{
     margin-top: 200px;
     height: calc(100% - 200px);
   }
+/* fine strategic */
+
+  .testimonials .container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .testimonials .row:nth-child(1) .col{
+    text-align: center;
+  }
+
 }
 
