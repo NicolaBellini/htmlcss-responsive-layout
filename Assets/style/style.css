@@ -51,6 +51,10 @@ header{
   height: 75px;
   width: 100%;
   color: white;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
 }
 
 header li{
@@ -79,6 +83,9 @@ header li{
 }
 /* header */
 /* main */
+.jumbo{
+  margin-top: 75px;
+}
 .jumbo .row{
   flex-direction: column;
 }
