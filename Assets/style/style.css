@@ -29,7 +29,8 @@ img{
 
 
 .container{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* .container1140{
@@ -58,15 +59,23 @@ header li{
 
 .menu-extend{
   display: none;
+
 }
 
 .logo{
-  width: 30%;
+  width: 80px;
+
+ 
 }
 
 .menu-hamb{
   width: 20%;
   height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu-hamb i{
+  font-size: 2rem;
 }
 /* header */
 /* main */
@@ -146,7 +155,18 @@ header li{
 .about .col:nth-child(2){
   height: 450px;
 }
+/* fine about */
 
+.free{
+  height: 615px;
+}
+
+/* fine free */
+
+footer{
+  background-color:#333333;
+  height: 230px;
+}
 
 /* media queries */
 @media (min-width:768px){
@@ -226,6 +246,31 @@ header li{
 }
 
 @media(min-width:1200px){
+  header .container{
+    width: 1140px;
+  }
+  .menu-extend{
+    display: block;
+    height: 100%;
+    width: 55%;
+    justify-content: space-between;
+  }
+  .menu-extend ul{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-extend li{
+    color: white;
+    display: flex;
+    align-items: center;
+  
+  }
+  .menu-extend a{
+    color: white;
+  }
+  .menu-hamb{
+    display: none;
+  }
   .jumbo .container{
     width: 1140px;
     margin: 0 auto;
