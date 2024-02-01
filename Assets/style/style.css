@@ -82,7 +82,9 @@ header li{
 .jumbo .col:last-child{
   margin-bottom: 60px;
 }
-
+/* fine jumbo */
+/* strategic part */
+.strategic
 /* media queries */
 @media (min-width:768px){
   .jumbo .row{
@@ -104,15 +106,21 @@ header li{
     width: 33.33%;
     height: 40%;
   }
+  /* fine jumbo */
 }
 
 @media(min-width:1200px){
-  .jumbo .container100{
+  .jumbo .container{
     width: 1140px;
     margin: 0 auto;
+    height: 870px;
   }
-  .jumbo .col{
+  .jumbo .row{
+    height: 870px;
+  }
+  .jumbo .row .col{
     height: 360px;
   }
+  /* fine jumbo */
 }
 
