@@ -61,6 +61,10 @@ img{
   background-color: var(--nav-color);
 }
 
+.text-center{
+  text-align: center;
+}
+
 .container{
   width: 90%;
   margin: 0 auto;
@@ -129,12 +133,14 @@ header li{
 .jumbo .col{
   width: 100%;
   height: 380px;
+  margin-bottom: 23px;
 }
 .jumbo .col:last-child{
   margin-bottom: 60px;
 }
 
 .card{
+
   height: 100%;
   padding-top: 2rem;
   padding-left: 2rem;
@@ -142,19 +148,31 @@ header li{
   border-radius: 25px;
   position: relative;
 }
+.card-text.small{
+  text-align: center;
+}
 
+.card.small i{
+  color: var(--nav-color);
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
 .blue{
   background-color: var(--col-color);
 }
 
 .card p{
   line-height: 30px;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: #5a6e7f;
 }
 
 .card h2{
   margin-bottom:30px;
   color: var(--nav-color);
+  font-size: 1.7rem;
 }
 
 .card a{
