@@ -229,10 +229,12 @@ align-items: center;
   margin-bottom: 30px;
 }
 /* fine strategic */
+
 /* inizio testimonials */
 .testimonials{
-  height: 2050px;
   padding: 60px 0 90px 0;
+  background-color: white;
+
 }
 .testimonials .container{
   height: 100%;
@@ -242,7 +244,6 @@ align-items: center;
 }
 
 .testimonials .col{
-  height: 520px;
   width: 100%;
 }
 .testimonials .col:nth-child(1){
@@ -250,6 +251,49 @@ align-items: center;
 }
 .testimonials .row:nth-child(1) .col{
   text-align: center;
+}
+
+.testimonials .col.d-flex{
+  justify-content: center;
+}
+
+.testimonials .caption{
+  padding: 70px 40px 0;
+  margin-bottom: 50px;
+}
+
+.testimonials .caption h2{
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+
+.testimonials .card{
+  /* width: 90%; */
+  color: white;
+  margin-bottom: 30px;
+  align-items: center;
+  padding: 30px 20px 35px;
+  border-radius: 40px;
+  background-color: var(--primary-color);
+}
+
+
+.testimonials .image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.testimonials .image img{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonials .card p{
+  line-height: 25px;
+  margin-bottom: 35px;
 }
 /* fine testimonials */
 
@@ -355,11 +399,34 @@ footer{
     height: 100%;
   }
   /* fine strategic */
-  .testimonials{
-    height: 1330px;
-  }
+ 
   .testimonials .row .col{
     height: 310px;
+  }
+/* 
+  .testimonials .caption{
+    padding: 0 40px 0 ;
+  } */
+
+  .testimonials .caption h2{
+    font-size: 2.7rem;
+  }
+
+  .testimonials .row:nth-child(1) .card{
+    text-align: left;
+  }
+  .testimonials .card{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .testimonials .cit{
+    flex-shrink: 4;
+  }
+  .testimonials .image{
+    margin-right: 30px;
+    min-width:200px;
+    width: 20%;
   }
   /* fine testimonials */
   .benefits{
