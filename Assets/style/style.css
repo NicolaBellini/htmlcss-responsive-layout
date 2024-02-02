@@ -341,11 +341,13 @@ footer{
   .strategic .text{
     align-items: flex-start;
   }
-  
-  .strategic .text .image{
-    margin: 0 auto;
-  }
 
+  /* .strategic .text .image{
+    margin: 0 auto;
+  } */
+  .strategic .white .text{
+    align-items: center;
+  }
   .strategic .white .image{
     width: 100%;
   }
