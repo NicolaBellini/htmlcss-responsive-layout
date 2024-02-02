@@ -11,31 +11,11 @@
   --primary-color: #9593e6;
   --free-color: #fdc15f;
   --footer-color:#333333;
+  --p:#677f93;
 }
 
 img{
-  width: 100%; 
-  height: auto;
-  object-fit: contain;
-}
-
-.m-top-l{
-  margin-top: 50px;
-}
-.m-top-m{
-  margin-top: 30px;
-}
-.m-top-s{
-  margin-top: 10px;
-}
-.m-bot-l{
-  margin-bottom: 50px;
-}
-.m-bot-m{
-  margin-bottom: 30px;
-}
-.m-bot-s{
-  margin-bottom: 10px;
+  width: 100%;
 }
 
 .d-flex{
@@ -44,32 +24,23 @@ img{
 .center{
   justify-content: center;
 }
-.column{
-  flex-direction: column;
-}
 .sp-bt{
   justify-content: space-between;
 }
+.d-colu{
+  flex-direction: column;
+}
 
 .btn{
-  font-size: 1.1rem;
-  font-weight: 550;
-  padding: 13px 60px;
-  border-radius: 26px;
-}
-.btn-blue{
   background-color: var(--nav-color);
-}
-
-.text-center{
-  text-align: center;
+  padding: 10px 40px;
+  border-radius: 20px;
+  max-width: 200px;
 }
 
 .container{
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
-
 
 /* .container1140{
   width: 1140px;
@@ -99,14 +70,22 @@ header li{
   list-style: none;
 }
 
+header .container{
+  width: 95%;
+  margin: 0 auto;
+}
+
 .menu-extend{
   display: none;
 
 }
 
 .logo{
-  height: 75px;
+  width: 80px;
+  padding-left: 20px;
+ 
 }
+
 .menu-hamb{
   width: 20%;
   height: 100%;
@@ -119,122 +98,88 @@ header li{
 /* header */
 /* main */
 .jumbo{
-  margin-top: 120px;
+  margin-top: 75px;
 }
+
+.jumbo h2{
+  color: var(--nav-color);
+}
+
+.jumbo p{
+  font-weight: 510;
+  color: var(--p);
+}
+
 .jumbo .row{
   flex-direction: column;
 }
 
 .jumbo .col:nth-child(1){
-  width: 100%;
+  width: 90%;
   height: 600px;
+  margin-top:50px ;
 }
- 
+
 .jumbo .col{
-  width: 100%;
+  margin: 0 auto 25px;
+  width: 90%;
   height: 380px;
-  margin-bottom: 23px;
+  border-radius: 25px;
+  background-color: var(--col-color);
 }
 .jumbo .col:last-child{
   margin-bottom: 60px;
 }
-
 .card{
+  width: 90%;
+  height: 90%;
+}
+
+.jumbo .text{
   height: 100%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-radius: 25px;
-  position: relative;
+  width: 100%;
+  margin-bottom:40px;
+  padding: 35px 20px;
 }
 
-.card-text.small{
-  text-align: center;
-}
-
-.card.small i{
-  color: var(--nav-color);
-  text-align: center;
-  font-size: 6rem;
-  margin-bottom: 2rem;
-}
-.blue{
-  background-color: var(--col-color);
-}
-
-.card p{
-  line-height: 26px;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #5a6e7f;
-}
-
-.card h2{
-  margin-bottom:30px;
-  color: var(--nav-color);
-  font-size: 1.7rem;
-}
-
-.card a{
- text-decoration: none;
-}
-
-.jumbo .card a{
+.jumbo .text a{
+  text-decoration: none;
   color: white;
 }
-
-.jumbo .card-text{
-  height: 50%;
-}
-
 .jumbo .image{
-  height: 50%;
+  width: 200px;
+  margin: 0 auto;
 }
-/* prima card andata male */
-/* 
-.jumbo .card:nth-child(1){
-  height: 600px;
-  /* overflow: hidden; */
 
+.jumbo .card-small{
+  padding:35px 20px;
+  text-align: center;
+}
 
-/* .jumbo .card .blue h2{
+.jumbo .card-small i{
+  font-size: 6rem;
+  margin-bottom: 20px;
   color: var(--nav-color);
 }
-.jumbo .card .blue a{
-  color: rgb(255, 255, 255);
-} 
 
-.jumbo .image{
-  margin: 0 auto;
-  overflow: hidden;
-  width: 70%;
-  position: absolute;
-  bottom: -5px;
-} */
+.jumbo .card-small h2{
+  padding-bottom: 38px;
+}
+.jumbo .card-small p{
+  line-height: 25px;
+}
+
 /* fine jumbo */
 /* strategic part */
 .strategic{
-  height: 1400px;
+  /* height: 1400px; */
   padding: 50px 0;
-  color: white;
-  line-height: 30px;
-  background-color: var(--primary-color);
-}
-
-.strategic h2{
-  margin: 3rem 0;
-  font-size: 2.5rem;
-  text-align: left;
 }
 
 .strategic .col{
-  height: 640px;
-  /* margin-bottom: 2rem; */
+
 }
-.strategic .row:nth-child(2) .col{
-  background-color: white;
-  border-radius: 50px;
-}
+
 /* fine strategic */
 /* inizio testimonials */
 .testimonials{
@@ -315,22 +260,22 @@ footer{
     height: 1180px;
   }
   .jumbo .col:nth-child(1){
-    width: 66.66%;
-   
+    width: 63%;
   }
   .jumbo .col:nth-child(1),
   .jumbo .col:nth-child(2){
-    height: 60%;
+    height: 63%;
+    margin-bottom:25px;
+    margin-top: 0;
   }
   .jumbo .col{
-    width: 33.33%;
-    height: 40%;
+    width: 30%;
+    height: 37%;
   }
 
-  .jumbo .col{
-    padding:0 15px;
+  .jumbo .image{
+    margin: 0;
   }
-  
   /* fine jumbo */
   .strategic{
     height: 2000px;
@@ -394,6 +339,7 @@ footer{
 @media(min-width:1200px){
   header .container{
     width: 1140px;
+    margin: 0 auto;
   }
   .menu-extend{
     display: block;
@@ -427,24 +373,26 @@ footer{
   }
   .jumbo .row .col{
     height: 360px;
-    display: flex;
+  }
+
+  .jumbo .col:nth-child(1){
+    flex-direction: row;
     align-items: flex-end;
   }
-
-  .jumbo .card .image,
-  .jumbo .card .card-text{
-    height: 80%;
-    justify-content: flex-end;
+  .jumbo .col:nth-child(1) .text{
+    justify-content: space-around;
   }
 
-
-  .jumbo .card{
-    flex-direction: row;
-    position: relative;
+  .jumbo .text{
+    width: 50%;
   }
 
-  .jumbo .card:nth-child(1) .image{
-    align-items: flex-end
+  .jumbo .image{
+    display: flex;
+    align-items: flex-end;
+    width: 37%;
+    height: 270px;
+    margin: 0 auto;
   }
   /* fine jumbo */
   /* strategic */
@@ -511,7 +459,7 @@ footer{
   }
   /* fine about */
   .free .container{
-    width: 1140px;
+    width: 50%;
   }
 }
 
