@@ -205,7 +205,7 @@ align-items: center;
 .white{
   background-color: white;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 .white .image{
@@ -337,6 +337,15 @@ footer{
   .strategic{
     padding: 120px 0 60px 0;
   }
+
+  .strategic .text{
+    align-items: flex-start;
+  }
+  
+  .strategic .text .image{
+    margin: 0 auto;
+  }
+
   .strategic .white .image{
     width: 100%;
   }
@@ -450,13 +459,12 @@ footer{
   }
   /* fine jumbo */
   /* strategic */
-  .strategic{
-    height: 930px;
-  }
+ 
   .strategic .container{
     height: 100%;
     margin: 50px 100px;
     justify-content: center;
+    align-items: flex-end;
     display: flex;
     width: 1140px;
     margin: 0 auto;
@@ -471,6 +479,22 @@ footer{
   .strategic .row:nth-child(2) .col{
     margin-top: 200px;
     height: calc(100% - 200px);
+  }
+
+  .strategic .violet h2{
+    margin-top: 140px;
+  }
+
+  .strategic .white{
+    padding: 0 40px;
+  }
+
+  .strategic .white p{
+    font-style: italic;
+  }
+  .strategic .white .image{
+    width: 280px;
+    margin-top: 30px;
   }
 /* fine strategic */
 
