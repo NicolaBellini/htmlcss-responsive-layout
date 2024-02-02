@@ -174,12 +174,60 @@ header .container{
 .strategic{
   /* height: 1400px; */
   padding: 50px 0;
+  background-color: var(--primary-color);
 }
 
 .strategic .col{
-
+  margin: 0 30px;
 }
 
+.strategic .col.violet{
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.col.violet h2{
+  margin-top: 80px;
+  margin-bottom: 55px;
+  font-size: 2rem;
+}
+
+.col.violet p,
+.white p{
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+
+.strategic .text{
+align-items: center;
+}
+
+.white{
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.white .image{
+  justify-content: center;
+  width: 250px;
+  margin-bottom: 30PX;
+}
+
+.white h2{
+  margin-bottom: 30px;
+}
+
+.white .arrow-down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
 /* fine strategic */
 /* inizio testimonials */
 .testimonials{
@@ -277,14 +325,20 @@ footer{
     margin: 0;
   }
   /* fine jumbo */
-  .strategic{
+  /* .strategic{
     height: 2000px;
-  }
-  .strategic .row:nth-child(1){
-    height: 1150px;
-  }
-  .strategic .row:nth-child(2){
+  } */
+  /* .strategic .row:nth-child(1){
+    /* height: 1150px; */
+  
+  /* .strategic .row:nth-child(2){
     height: 950px;
+  } */
+  .strategic{
+    padding: 120px 0 60px 0;
+  }
+  .strategic .white .image{
+    width: 100%;
   }
   .strategic .col{
     height: 100%;
