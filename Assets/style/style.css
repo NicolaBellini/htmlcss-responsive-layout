@@ -440,16 +440,18 @@ align-items: center;
   font-size: 1.4rem;
   color:#d5d4f4;
   font-weight: 100;
+  margin-top: 10px;
 }
 
 .free h2{
   color: white;
-  font-size: 1.6rem;
+  font-size: 2rem;
+  margin: 30px 0 50px;
 }
 
 .free h3{
   color: var(--free-color);
-  font-size: 3.4rem;
+  font-size: 5rem;
 }
 
 .free p{
@@ -492,8 +494,25 @@ align-items: center;
 
 footer{
   background-color:#333333;
-  height: 230px;
+  color: white;
+  text-align: center;
 }
+
+footer .text{
+  padding: 40px;
+}
+
+footer a{
+  color: var(--primary-color);
+}
+
+footer p:nth-child(1){
+  margin-bottom: 75px;
+} 
+footer p:nth-child(2){
+  margin-bottom: 40px;
+}
+
 
 /* media queries */
 @media (min-width:768px){
